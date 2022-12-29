@@ -69,7 +69,7 @@ end)
 		end,
 	})
 	local Button = MsicTab:CreateButton({
-		Name = "Lock",
+		Name = "Lock|q|",
 		Callback = function()
 			
 local CC = game:GetService'Workspace'.CurrentCamera
