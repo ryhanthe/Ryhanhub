@@ -33,7 +33,7 @@ if game.PlaceId == 286090429 then
 	local MainTab = Window:CreateTab("Main", 4483362458)
 	local localTab = Window:CreateTab("Misc", 4483362458) 
 	local CreditTab = Window:CreateTab("Credit", 4483362458) 
-
+	local Label = CreditTab:CreateLabel("Made by Ryhan/DIOOO#9999")
 	local Label = MainTab:CreateLabel("Press e to lock and UNLOCK e")
 	local Label = MainTab:CreateLabel("Esp is auto update")
 	local Label = MainTab:CreateLabel("just use aimlock for to get off hard guns")
